@@ -1,8 +1,28 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar(
-  [
-    "/",
-    { text: "FC游戏NES文件", link: "/fc_nes_files/README.md", icon: "games-" }
-  ]
+  {
+    "/fc_book/":
+    [
+      {
+        text: "FC游戏",
+        prefix: "/fc_book/",
+        link: "/fc_book/",
+        icon: "games-",
+        collapsible: true,
+        expanded: false,
+        children: [
+          {
+            text: "冒险岛系列",
+            prefix: "/fc_book/",
+            collapsible: true,
+            expanded: false,
+            children: [
+              "generation",
+            ],
+          }
+        ]
+      }
+    ]
+  }
 );

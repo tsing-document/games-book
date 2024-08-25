@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://mister-hope.com",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_4659047_g9pjevhcqle.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4659047_85etmka5wqv.css",
 
   logo: "/assets/images/马里奥.png",
 
