@@ -2,8 +2,8 @@
 title: 冒险岛一代
 index: false
 isOriginal: true
-category: "JAVA"
-tag: "java高级"
+category: "FC小霸王游戏"
+tag: "冒险岛"
 date: 2024-08-21
 ---
 
